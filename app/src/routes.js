@@ -1,8 +1,14 @@
 export default [
   {
     path: '/',
-    component: require('./components/HomeView'),
+    component: require('./components/MainView'),
     name: 'home',
+    children: [
+      {
+        path: 'table',
+        component: require('./components/MainView/Table'),
+      },
+    ],
   },
   {
     path: '*',
