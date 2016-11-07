@@ -1,0 +1,5 @@
+  {
+    path:'Route',
+    component: require('./components/RouteView'),
+    name: 'Route'
+  }
